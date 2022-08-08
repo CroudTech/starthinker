@@ -503,7 +503,7 @@ def API_DCM(config, auth, iterate=False, internal=False):
 
   api = {
       'api': 'dfareporting',
-      'version': 'v3.5',
+      'version': 'v4',
       'auth': auth,
       'iterate': iterate
   }
