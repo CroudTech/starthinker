@@ -114,7 +114,7 @@
     { "google_api": {
       "auth":{"field":{"name":"auth_cm", "kind":"authentication", "order":0, "default":"user", "description":"Credentials used for reading data."}},
       "api": "dfareporting",
-      "version": "v3.5",
+      "version": "v4",
       "function": "advertisers.list",
       "iterate": true,
       "kwargs": {
@@ -132,7 +132,7 @@
     { "google_api": {
       "auth":{"field":{"name":"auth_cm", "kind":"authentication", "order":0, "default":"user", "description":"Credentials used for reading data."}},
       "api": "dfareporting",
-      "version": "v3.5",
+      "version": "v4",
       "function": "campaigns.list",
       "iterate": true,
       "kwargs": {
@@ -150,7 +150,7 @@
     { "google_api": {
       "auth":{"field":{"name":"auth_cm", "kind":"authentication", "order":0, "default":"user", "description":"Credentials used for reading data."}},
       "api": "dfareporting",
-      "version": "v3.5",
+      "version": "v4",
       "function": "ads.list",
       "iterate": true,
       "kwargs": {
@@ -168,7 +168,7 @@
     { "google_api": {
       "auth":{"field":{"name":"auth_cm", "kind":"authentication", "order":0, "default":"user", "description":"Credentials used for reading data."}},
       "api": "dfareporting",
-      "version": "v3.5",
+      "version": "v4",
       "function": "placements.list",
       "iterate": true,
       "kwargs": {
