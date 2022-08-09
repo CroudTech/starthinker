@@ -51,7 +51,7 @@
     { "google_api": {
       "auth":"user",
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "accounts.get",
       "kwargs":{
         "id":{"field":{ "name":"account", "kind":"integer", "order":5, "default":"", "description":"Campaign Manager Account ID" }},

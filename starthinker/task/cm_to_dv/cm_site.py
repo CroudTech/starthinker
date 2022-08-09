@@ -35,7 +35,7 @@ def cm_site_clear(config, task):
     'CM_Sites',
     Discovery_To_BigQuery(
       'dfareporting',
-      'v3.4'
+      'v4'
     ).method_schema(
       'sites.list',
       iterate=True
@@ -95,7 +95,7 @@ def cm_site_load(config, task):
       'table': 'CM_Sites',
       'schema': Discovery_To_BigQuery(
         'dfareporting',
-        'v3.4'
+        'v4'
       ).method_schema(
         'sites.list',
         iterate=True

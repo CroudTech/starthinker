@@ -35,7 +35,7 @@ def cm_placement_group_clear(config, task):
     'CM_PlacementGroups',
     Discovery_To_BigQuery(
       'dfareporting',
-      'v3.4'
+      'v4'
     ).method_schema(
       'placementGroups.list',
       iterate=True
@@ -95,7 +95,7 @@ def cm_placement_group_load(config, task):
       'table': 'CM_PlacementGroups',
       'schema': Discovery_To_BigQuery(
         'dfareporting',
-        'v3.4'
+        'v4'
       ).method_schema(
         'placementGroups.list',
         iterate=True

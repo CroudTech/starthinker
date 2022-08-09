@@ -34,7 +34,7 @@ def cm_profile_clear(config, task):
     'CM_Profiles',
     Discovery_To_BigQuery(
       'dfareporting',
-      'v3.4'
+      'v4'
     ).method_schema(
       'userProfiles.list',
       iterate=True
@@ -63,7 +63,7 @@ def cm_profile_load(config, task):
       'table': 'CM_Profiles',
       'schema': Discovery_To_BigQuery(
         'dfareporting',
-        'v3.4'
+        'v4'
       ).method_schema('userProfiles.list', iterate=True),
       'format':'JSON'
     }},

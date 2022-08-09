@@ -36,7 +36,7 @@ def cm_account_clear(config, task):
     'CM_Accounts',
     Discovery_To_BigQuery(
       'dfareporting',
-      'v3.4'
+      'v4'
     ).method_schema(
       'accounts.list',
       iterate=True
@@ -88,7 +88,7 @@ def cm_account_load(config, task):
       'table': 'CM_Accounts',
       'schema': Discovery_To_BigQuery(
         'dfareporting',
-        'v3.4'
+        'v4'
       ).method_schema(
         'accounts.list',
         iterate=True

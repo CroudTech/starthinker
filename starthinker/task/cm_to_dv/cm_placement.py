@@ -35,7 +35,7 @@ def cm_placement_clear(config, task):
     'CM_Placements',
     Discovery_To_BigQuery(
       'dfareporting',
-      'v3.4'
+      'v4'
     ).method_schema(
       'placements.list',
       iterate=True
@@ -95,7 +95,7 @@ def cm_placement_load(config, task):
       'table': 'CM_Placements',
       'schema': Discovery_To_BigQuery(
         'dfareporting',
-        'v3.4'
+        'v4'
       ).method_schema(
         'placements.list',
         iterate=True

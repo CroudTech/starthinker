@@ -36,7 +36,7 @@ def cm_campaign_clear(config, task):
     'CM_Campaigns',
     Discovery_To_BigQuery(
       'dfareporting',
-      'v3.4'
+      'v4'
     ).method_schema(
       'campaigns.list',
       iterate=True
@@ -105,7 +105,7 @@ def cm_campaign_load(config, task):
       'table': 'CM_Campaigns',
       'schema': Discovery_To_BigQuery(
         'dfareporting',
-        'v3.4'
+        'v4'
       ).method_schema(
         'campaigns.list',
         iterate=True

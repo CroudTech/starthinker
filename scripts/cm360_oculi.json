@@ -37,7 +37,7 @@
       "__comment__":"Download all creatives, limit set to 20K for 4 hour processing time, and up to maximum 80K to prevent triggering 500 Error in API.",
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"user", "description":"CM360 read credentials." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "creatives.list",
       "kwargs":{"accountId":{"field":{ "name":"account", "kind":"integer", "order":3, "default":"", "description":"CM360 Account Identifier" }}, "sortField":"ID", "sortOrder":"DESCENDING"},
       "iterate":true,

@@ -38,7 +38,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "userProfiles.list",
       "kwargs":{},
       "iterate":true,
@@ -53,7 +53,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "accounts.get",
       "kwargs_remote":{
         "bigquery":{
@@ -82,7 +82,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "subaccounts.list",
       "kwargs_remote":{
         "bigquery":{
@@ -104,7 +104,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "advertisers.list",
       "kwargs_remote":{
         "bigquery":{
@@ -126,7 +126,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "advertiserGroups.list",
       "kwargs_remote":{
         "bigquery":{
@@ -148,7 +148,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "advertiserLandingPages.list",
       "kwargs_remote":{
         "bigquery":{
@@ -170,7 +170,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "campaigns.list",
       "kwargs_remote":{
         "bigquery":{
@@ -192,7 +192,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "campaignCreativeAssociations.list",
       "kwargs_remote":{
         "bigquery":{
@@ -214,7 +214,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "ads.list",
       "kwargs_remote":{
         "bigquery":{
@@ -236,7 +236,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "sites.list",
       "kwargs_remote":{
         "bigquery":{
@@ -258,7 +258,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "directorySites.list",
       "kwargs_remote":{
         "bigquery":{
@@ -280,7 +280,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "placements.list",
       "kwargs_remote":{
         "bigquery":{
@@ -302,7 +302,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "placementGroups.list",
       "kwargs_remote":{
         "bigquery":{
@@ -324,7 +324,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "placementStrategies.list",
       "kwargs_remote":{
         "bigquery":{
@@ -346,7 +346,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "creatives.list",
       "kwargs_remote":{
         "bigquery":{
@@ -368,7 +368,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "creativeGroups.list",
       "kwargs_remote":{
         "bigquery":{
@@ -390,7 +390,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "sizes.list",
       "kwargs_remote":{
         "bigquery":{
@@ -412,7 +412,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "creativeFields.list",
       "kwargs_remote":{
         "bigquery":{
@@ -434,7 +434,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "creativeFieldValues.list",
       "kwargs_remote":{
         "bigquery":{
@@ -456,7 +456,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "browsers.list",
       "kwargs_remote":{
         "bigquery":{
@@ -478,7 +478,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "cities.list",
       "kwargs_remote":{
         "bigquery":{
@@ -500,7 +500,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "languages.list",
       "kwargs_remote":{
         "bigquery":{
@@ -522,7 +522,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "metros.list",
       "kwargs_remote":{
         "bigquery":{
@@ -544,7 +544,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "connectionTypes.list",
       "kwargs_remote":{
         "bigquery":{
@@ -566,7 +566,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "contentCategories.list",
       "kwargs_remote":{
         "bigquery":{
@@ -588,7 +588,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "countries.list",
       "kwargs_remote":{
         "bigquery":{
@@ -610,7 +610,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "regions.list",
       "kwargs_remote":{
         "bigquery":{
@@ -632,7 +632,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "postalCodes.list",
       "kwargs_remote":{
         "bigquery":{
@@ -654,7 +654,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "projects.list",
       "kwargs_remote":{
         "bigquery":{
@@ -676,7 +676,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "videoFormats.list",
       "kwargs_remote":{
         "bigquery":{
@@ -698,7 +698,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "platformTypes.list",
       "kwargs_remote":{
         "bigquery":{
@@ -720,7 +720,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "orders.list",
       "kwargs_remote":{
         "bigquery":{
@@ -742,7 +742,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "orderDocuments.list",
       "kwargs_remote":{
         "bigquery":{
@@ -764,7 +764,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "mobileApps.list",
       "kwargs_remote":{
         "bigquery":{
@@ -786,7 +786,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "mobileCarriers.list",
       "kwargs_remote":{
         "bigquery":{
@@ -808,7 +808,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "operatingSystems.list",
       "kwargs_remote":{
         "bigquery":{
@@ -830,7 +830,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "operatingSystemVersions.list",
       "kwargs_remote":{
         "bigquery":{
@@ -852,7 +852,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "remarketingLists.list",
       "kwargs_remote":{
         "bigquery":{
@@ -874,7 +874,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "targetingTemplates.list",
       "kwargs_remote":{
         "bigquery":{
@@ -896,7 +896,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "targetableRemarketingLists.list",
       "kwargs_remote":{
         "bigquery":{
@@ -918,7 +918,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "inventoryItems.list",
       "kwargs_remote":{
         "bigquery":{
@@ -940,7 +940,7 @@
     { "google_api": {
       "auth":{"field":{ "name":"auth_cm", "kind":"authentication", "order":1, "default":"service", "description":"Credentials used for reading data." }},
       "api": "dfareporting",
-      "version": "v3.4",
+      "version": "v4",
       "function": "dynamicTargetingKeys.list",
       "kwargs_remote":{
         "bigquery":{

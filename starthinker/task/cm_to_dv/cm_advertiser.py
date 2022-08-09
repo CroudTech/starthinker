@@ -36,7 +36,7 @@ def cm_advertiser_clear(config, task):
     'CM_Advertisers',
     Discovery_To_BigQuery(
       'dfareporting',
-      'v3.4'
+      'v4'
     ).method_schema(
       'advertisers.list',
       iterate=True
@@ -88,7 +88,7 @@ def cm_advertiser_load(config, task):
       'table': 'CM_Advertisers',
       'schema': Discovery_To_BigQuery(
         'dfareporting',
-        'v3.4'
+        'v4'
       ).method_schema(
         'advertisers.list',
         iterate=True

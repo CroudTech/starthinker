@@ -12,7 +12,7 @@
     { "google_api":{
       "auth":"service",
       "api":"dfareporting",
-      "version":"v3.5",
+      "version":"v4",
       "function":"browsers.list",
       "kwargs":{
         "accountId":{"field":{ "name":"account_id", "kind":"string", "default":"" }}
